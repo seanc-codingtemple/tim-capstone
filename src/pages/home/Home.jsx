@@ -1,21 +1,14 @@
- import "./home.css"
-
-// export const Home = () => {
-//   return (
-//     <div>
-//         <navbar />
-//         <header/>
-//     </div>
-//   )
-// }
-import React from 'react'
-
+import './home.css';
+import React from 'react';
+import Navbar from '../../components/navbar/Navbar';
+import Header from '../../components/header/Header';
 const Home = () => {
   return (
     <div>
-      <navbar />
-             <header/></div>
-  )
-}
+      <Navbar />
+      <Header />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
